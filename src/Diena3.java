@@ -51,7 +51,31 @@ public class Diena3 {
 		}
 
 		*/
+		
+		//Desmitais
+		String months[] = new String[11];
+		months[0] = "Janvaris";
+		months[1] = "Februaris";
+		months[2] = "Marts";
+		months[3] = "Aprilis";
+		months[4] = "Maijs";
+		months[5] = "Junijs";
+		months[6] = "Julijs";
+		months[7] = "Augusts";
+		months[8] = "Septembris";
+		months[9] = "Oktobris";
+		months[10] = "Novembris";
+		months[11] = "Decembris";
 
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Ievadiet mēneša numuru:");
+		int x = scanner.nextInt();
+		
+		for (int i = 0; i < months[11].length(); i++) {
+			if (i == x) {
+				System.out.println(months[i]);
+			}
+		}
 	}
 
 }
