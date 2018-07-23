@@ -53,6 +53,7 @@ public class Diena3 {
 		*/
 		
 		//Desmitais
+		/*
 		String months[] = new String[11];
 		months[0] = "Janvaris";
 		months[1] = "Februaris";
@@ -76,6 +77,18 @@ public class Diena3 {
 				System.out.println(months[i]);
 			}
 		}
+		*/
+		
+		//11.
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
